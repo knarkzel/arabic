@@ -20,6 +20,10 @@
       dfn {
           font-style: normal;
       }
+
+      summary > span {
+          float: right;
+      }
       
       th:nth-child(3) {
           width: 45%;
@@ -45,11 +49,19 @@
     </style>
   </head>
   <body>
+    <script>
+      let words = 77439;
+      let pronomen = 209 + 46 + 44 + 461 + 45 + 189 + 1189 + 69 + 928 + 46;
+      console.log(`Antall prosent for pronomen: ${pronomen / words * 100}`);
+    </script>
     <center>
       <h2>Forstå 50% av Koranen med disse ordene</h2>
     </center>
     <details>
-      <summary id="pronomen">Pronomen</summary>
+      <summary id="pronomen">
+        Pronomen
+        <span>4.17%</span>
+      </summary>
       <p>
         <i>Basert på <a href="https://www.youtube.com/watch?v=mChh2WwT4Tk&t=103s">Lesson 1</a></i>
       </p>
